@@ -23,6 +23,9 @@ public class Site  //Miranium site
 
 	public bool reached; // if the player has ever reached this site and placed a probe in it 
 
+	//This things interfere but will add their calculations later
+	public int sightSeeingMax;
+	public int sightSeeingFound;
 
 	public Site(string name, Ranking mining, Ranking revenue, Ranking combatSupport)
 	{
